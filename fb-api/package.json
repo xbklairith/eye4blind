@@ -1,0 +1,32 @@
+{
+  "name": "fb-api",
+  "version": "1.0.0",
+  "description": "Api for group facebook for helping blind read .",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "eyefb": "./cli/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "fb": "^1.1.1",
+    "hget": "^3.0.1",
+    "marked-terminal": "^2.0.0",
+    "node-couchdb": "^1.1.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.5",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-2": "^6.18.0"
+  }
+}
